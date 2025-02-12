@@ -1,4 +1,4 @@
-# 🚀 Dev Mode in Figma - Learning Project
+# 🚀 Dev Mode in Figma 
 
 ## 📖 About
 
