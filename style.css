@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: #F4D04E;
+    background: white;
     display: flex;
         align-items: center;
         justify-content: center;
@@ -32,11 +32,12 @@ a{
         background-color: white;
         border-radius: 20px;
             background: var(--color-white, #FFF);
-            box-shadow: 8px 8px 0px 0px #000;
+        box-shadow: 0px 38.26px 38.26px 0px rgba(177, 187, 211, 0.34);
 }
 
 .card-img img {
     border-radius: 10px;
+    height:400
 }
 
 .card-text {
@@ -48,36 +49,49 @@ a{
 }
 
 .tag-bg {
-    background-color: #E0E7F3;
+    background-color: #3F58FF;
    padding: var(--spacing-50, 4px) var(--spacing-150, 12px);;
-    border-radius: 4px;
-    font-size: var(--font-size-text-preset-3, 14px);
-        font-style: normal;
-        font-weight: 700;
-        line-height: 150%;
+    border-radius: 30px;
+
         /* 21px */
 }
 
-.published-date{
+.tag-bg h4 {
+    border-radius: 30px;
+    color: white;
+
+    font-family: "Work Sans";
     font-size: var(--font-size-text-preset-3, 14px);
-        font-style: normal;
-        font-weight: 500;
-        line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    line-height: 150%;
+    /* 21px */
+}
+
+.published-date{
+color: #192442;
+
+    font-family: "Work Sans";
+    font-size: var(--font-size-text-preset-3, 14px);
+    font-style: normal;
+    font-weight: 00;
+    line-height: 150%;/
         /* 21px */
 }
 
 .preview-text{
-    color: var(--color-gray-500, #6B6B6B);
+    color: var(--color-gray-500, #7C87A2);
         font-family: "Work Sans";
         font-size: var(--font-size-text-preset-2, 16px);
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 150%;
         /* 24px */
 }
 
 .blog-title {
-    color: var(--color-gray-950, #111);
+    color: var(--color-gray-950, #192442);
         font-family: "Work Sans";
         font-size: var(--spacing-200, 24px);
         font-style: normal;
@@ -87,24 +101,37 @@ a{
   
 }
 .blog-title:hover {
-    color: #263462;
+    color: #3F58FF;
     /* Change text color */
 }
 
 
-.avatar-contianer {
+.avatar-container {
     display: flex;
     align-items: center;
     gap: var(--spacing-150, 12px);
 }
 
 
-.avatar-contianer h4 {
-    color: var(--color-gray-950, #111);
+.avatar-container h4 {
+    color: #222B43;
+    
         font-family: "Work Sans";
         font-size: var(--font-size-text-preset-3, 14px);
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 150%;
         /* 21px */
+        /* 21px */
+}
+
+.avatar-container img {
+    width: 40px;
+    /* Adjust the width */
+    height: 40px;
+    /* Adjust the height */
+    border-radius: 50%;
+    /* Keeps it circular */
+    object-fit: cover;
+    /* Ensures the image fills the area */
 }
