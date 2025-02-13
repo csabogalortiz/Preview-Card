@@ -1,4 +1,6 @@
-# 🚀 Dev Mode in Figma 
+# 🚀 Dev Mode in Figma
+
+![Preview Screenshot](./design/preview.png)
 
 ## 📖 About
 
@@ -23,4 +25,3 @@ Since this is a static project with a focus on learning Figma Dev Mode, minimal 
 ```sh
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
-```
