@@ -1,6 +1,7 @@
 # 🚀 Dev Mode in Figma
 
-![Preview Screenshot](./design/preview.png)
+[![Preview Screenshot](./design/preview.png)](./design/preview.png)
+
 
 ## 📖 About
 
